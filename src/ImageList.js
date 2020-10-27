@@ -15,8 +15,12 @@ export default class ImageList extends Component {
       {
        images.map(item => {
       return <ImageItem
-       title={item.title}  
+       title={`(`+ item.title + `)`}  
+       keywords={item.keyword}
        image={item.url} 
+       description={`Image Description: ` + item.description}
+       horns={`Number of horns: ` + item.horns}
+       
        
        /> })
        }
