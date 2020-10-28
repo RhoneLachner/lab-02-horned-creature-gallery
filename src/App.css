@@ -17,6 +17,20 @@ img {
   height: 250px;
 }
 
+.HeaderDiv {
+margin: 50px;
+font-size: 30px;
+}
+
+.FooterDiv {
+  margin: 50px;
+  font-size: 30px;
+}
+
+.ImageList {
+  align-items: center;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
