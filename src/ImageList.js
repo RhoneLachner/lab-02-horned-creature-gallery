@@ -2,6 +2,7 @@ import { Component } from 'react';
 import Creatures from './App.js';
 import ImageItem from './ImageItem';
 import images from './data';
+import './App.css'
 
 
 
@@ -23,7 +24,7 @@ handleChange = e => {
            <>
            <div>
 
-            <select onChange={this.handleChange}>
+            <select onChange={this.handleChange} className="dropdown">
             <option value=''>Show All</option>
             <option value='narwhal'>narwhal</option>
             <option value='rhino'>rhino</option>

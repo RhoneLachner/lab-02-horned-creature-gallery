@@ -4,7 +4,7 @@ import './App.css';
 export default class ImageItem extends Component {
     render() {
         return (
-            <div>
+            <div className='itemDiv'>
                 <h1>{this.props.keywords}</h1>
                 <h4>{this.props.title}</h4>
                 <img src={this.props.image}/>

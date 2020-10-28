@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: rgb(192, 194, 196);
+  align-items: center;
 }
 
 .App-logo {
@@ -13,23 +15,62 @@
   }
 }
 
+/* .ImageList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.itemDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 img {
   height: 250px;
+  border-radius: 150px;
+  align-self: center;
+  text-align: center;
+}
+
+h1, h2, h3, h4, p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .HeaderDiv {
 margin: 50px;
 font-size: 30px;
+background-color: rgba(142, 151, 159, 0.68);
+height: 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: lightslategray;
+border-radius: 10px;
 }
 
 .FooterDiv {
   margin: 50px;
   font-size: 30px;
+  background-color: rgba(136, 142, 148, 0.605);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.ImageList {
-  align-items: center;
-}
 
 .App-header {
   background-color: #282c34;
