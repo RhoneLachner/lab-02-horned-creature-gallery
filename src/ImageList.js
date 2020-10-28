@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import Creatures from './App.js';
 import ImageItem from './ImageItem';
 import images from './data';
 import './App.css'
